@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="notes-app">
+    <header>
+      <nav >
+        <div class="container">
+          <h1>Smart Notes</h1>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container section-container">
+        <!-- form container -->
+        <div class="form-container">
+          <h2>Add Note</h2>
+          <hr>
+          <form>
+            <input type="text" placeholder="Note Title" id="note-title">
+            <textarea name="" id="note-text"placeholder="Note Details" cols="30" rows="10"></textarea>
+            <button id="add-btn">Add Note</button>
+          </form>
+        </div>
+        <!-- Notes container -->
+        <div class="notes-container">
+          <div class="container container-notes">
+            <div class="notes-header">
+              <h2>Your Notes</h2>
+              <button class="clear note-btn">Delete all Notes</button>
+            </div>
+            <hr>
+            <div id="notes">
+              <!-- <div class="note">
+                <div class="note-cta">
+                  <p class="note-counter">
+                    Note 1
+                  </p>
+                  <div class="note-cta-btn">
+              <button class="note-btn"><i class="fas fa-trash"></i>Delete</button>
+              <button class="note-btn edit-btn"><i class="fas fa-edit"></i>Edit</button>
+                  </div>
+                </div>
+                <hr>
+                <h3 class="note-title">Title:Hello</h3>
+                <p class="note-text">This is some content</p>
+              </div> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
